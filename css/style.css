@@ -175,16 +175,16 @@ tr:nth-child(even) {
 }
 
 /*footer*/
+/*footer*/
 #footer {
-	padding-top: 50px;
-	width: 960px;
-	margin: 0 auto;
+    padding-top: 50px;
+    margin: 0 auto;
 }
 .footer {
-	background:transparent url(img/line.png) repeat-x top;
-	text-align: center;
-	padding: 20px 0 0 0;
-	height: 60px;
+    background: transparent url(img/line.png) repeat-x top;
+    text-align: center;
+    padding: 20px 0 0 0;
+    height: 60px;
 }
 span.emoji {
     font-size: 30px;
