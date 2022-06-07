@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(https://fonts.gstatic.com/s/dancingscript/v23/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y03ROp8ltA.woff2) format('woff2');
+}
+
+/*body web (body website)*/
+body {
+    background: transparent url(img/bg.jpg) repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #848484;
+    background-attachment: fixed;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+/*title page text (full website)*/
+h1 {
+    font-size: 54px;
+    color: white;
+    text-shadow: 1px 1px #333;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*section basic (full website)*/
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/*header (index.html)*/
+header {
+    text-align: center;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+/*welcome section (index.html*/
+#welcome {
+    background-image: url("img/background-header.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#welcome h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*panel (full website)*/
+.panel {
+    background-color: #1C2944;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+}
+.panel h2 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px #333;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*navbar menu (full website)*/
+.nav {
+    width: auto;
+    background-color: #1C2944;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+.nav-item:hover {
+    background-color: white;
+}
+.nav-item:hover a {
+    color: #1C2944;
+}
+.logo img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+/*contact form (contact.html)*/
+input[type="text"],
+input[type="email"],
+select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #848484;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#contact {
+    text-align: left;
+}
+
+/*table assets (assets.html*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid white;
+}
+th {
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #26385B;
+}
+/*card (royal-familly.html)*/
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#royalFamilly .flex-container div {
+    flex: 1 1 0;
+}
+.familly-title {
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px #333;
+    text-align: center;
+}
+.familly-description {
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px #333;
+    text-align: center;
+}
+.familly-tab table {
+    border-collapse: collapse;
+    width: auto;
+    margin-left: 38%;
+}
+
+/*footer*/
+#footer {
+	padding-top: 50px;
+	width: 960px;
+	margin: 0 auto;
+}
+.footer {
+	background:transparent url(img/line.png) repeat-x top;
+	text-align: center;
+	padding: 20px 0 0 0;
+	height: 60px;
+}
+span.emoji {
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 2;
+}
+
+
+/*modification of the color when selecting an element (full site)*/
+::-moz-selection { 
+    background: #4362A0;
+}
+::selection { 
+    background: #4362A0;
+}
