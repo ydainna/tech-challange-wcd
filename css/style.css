@@ -135,6 +135,7 @@ input[type=submit]:hover {
 table {
     border-collapse: collapse;
     width: 100%;
+    margin: 0;
 }
 th, td {
     padding: 15px;
@@ -147,12 +148,12 @@ th {
 tr:nth-child(even) {
     background-color: #26385B;
 }
+
 /*card (royal-familly.html)*/
 .flex-container {
     display: flex;
     justify-content: space-between;
 }
-
 #royalFamilly .flex-container div {
     flex: 1 1 0;
 }
